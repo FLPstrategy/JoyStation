@@ -20,7 +20,17 @@
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
     </script>
 
-    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet"> 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120385559-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120385559-1');
+</script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <!-- <script src="https://github.com/hsluv/hsluv/releases/download/v0.0.1/hsluv.min.js"></script> -->
     <style>
       *{
@@ -28,7 +38,7 @@
       }
       html{
         font-size:8vmin;
-        background-color:#fff07e;
+        background-color:#ffffff;
         
       }
       body{
@@ -50,13 +60,13 @@
       }
 
       .prompt {
-        font-family: 'Berkshire Swash', cursive;
+        font-family: 'Roboto Slab', serif;
         text-align:center;
       }
 
       .face{
-        fill:#1c4355;
-        stroke:#1c4355;
+        fill:#cc0000;
+        stroke:#cc0000;
         stroke-width:25px;
         /* fill:white;
         stroke:red; */
@@ -139,7 +149,7 @@
         /* display:flex;
         flex-direction:column; */
         font-size:2rem;
-        font-family: 'Berkshire Swash', cursive;
+        font-family: 'Roboto Slab', serif;
         /* text-align: center; */
         align-content: space-evenly;
         height:100%;
@@ -152,7 +162,7 @@
         border:0;
         border-radius: 0.45rem;
         padding: 0.1rem 0.2rem;
-        background-color:rgb(79, 145, 243);
+        background-color:rgb(204, 0, 0);
         color:white;
         font-weight:800;
       }
@@ -257,7 +267,7 @@
       </div>
       <div v-else class="thanks">
         <p>Thanks!</p>
-        <img src="logo-md.svg">
+        <img src="FLP_Logo.svg">
       </div>
     </div>
     <script>
@@ -462,3 +472,4 @@
     </script>
   </body>
 </html>
+
